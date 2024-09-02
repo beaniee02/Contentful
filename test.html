@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .card{
+        width: 200px;
+        padding: 20px;
+        border: 2px solid gainsboro;
+        transition: border 0.3s ease;
+        cursor: pointer;
+        user-select: none;
+    }
+    .card:hover{
+        border-color: red;
+    }
+    .card a:focus{
+        color: burlywood;
+    }
+    .card a{
+        text-decoration: none;
+    }
+    .card:hover span{
+        color: blue;
+        font-size: 50px;
+    }
+</style>
+<body>
+    
+    <div class="card">
+         <a href="">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis voluptates debitis ratione officia laboriosam dignissimos veritatis quod, soluta eaque magni dolores aliquid labore asperiores tempore ducimus mollitia aut, eos suscipit.
+         </a>
+         <span>&times;</span>
+    </div>
+
+</body>
+</html>
